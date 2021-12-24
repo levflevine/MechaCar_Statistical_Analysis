@@ -24,11 +24,11 @@ The **slope is not considered to be zero**: there is a significant linear relati
 The linear regression equation looks like this:
 
 ***mpg*** = -0.01 +  <br>
-            + 6.27 * ***vehicle_length*** + <br>
-            + 0.001 * ***vehicle_weight*** + <br>
-            + 0.07 * ***spoiler_angle*** + <br>
-            + 3.55 * ***ground_clearance*** - <br>
-            - 3.41 * ***AWD***
+<p style="text-indent: 40px"> + 6.27 * ***vehicle_length*** + </p>
+<p style="text-indent: 40px"> + 0.001 * ***vehicle_weight*** + </p>
+<p style="text-indent: 40px"> + 0.07 * ***spoiler_angle*** + </p>
+<p style="text-indent: 40px"> + 3.55 * ***ground_clearance*** - </p>
+<p style="text-indent: 40px"> - 3.41 * ***AWD*** </p>
 
 The overall regression model **P-value is 5.35e-11**, which is well below our significance level of 0.05. Hence, there is sufficient evidence to reject our null hypothesis, which means that **the slope of our linear model is not zero**.
 
