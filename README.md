@@ -87,7 +87,7 @@ The aggregated t-test summary is presented below:
 
 The Lot 1 t-test summary is presented below:
 
-![Total Summary](/Resources/Lot1_T.test.png)
+![Total Summary](/Resources/Lot01_T.test.png)
 
 The Lot 2 t-test summary is presented below:
 
