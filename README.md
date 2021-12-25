@@ -111,6 +111,43 @@ The Lot 3 t-test summary is presented below:
 
 ![Total Summary](/Resources/Lot3_T.test.png)
 
+## Study Design: MechaCar vs Competition
+
+### Goal 
+
+- Quantify how the MechaCar performs against the competition
+
+### Metrics to be tested
+
+1. Total Cost of Ownership (**TCO**) = initial cost to purchase the vehicle + costs to operate the vehicle + disposal cost over the course of 5 years at 12,000 miles per year
+2. Safety Rating (**SR**) = 1 / (number of traffic incidents per year * severity of incidents (in US$) per 1,000 vehicles)
+3. CO2 Footpring per Mile (**CO2**) = average CO2 grams per mile of vehicle operation
+4. Initial Quality (**IQ**) = 1 / (number of unplanned service requests in the first year of vehicle ownership)
+5. Performance (**PF**) = maximum hoursepower
+
+### What is the null hypothesis or alternative hypothesis?
+
+|---------|-----------------|------------------------|
+| Metrics | Null Hypothesis | Alternative Hypothesis |
+|---------|-----------------|------------------------|
+| TCO | MechaCar TCO is higher or equal to competitor TCO | MechaCar TCO is lower than the competition |
+|---------|-----------------|------------------------|
+| SR | MechaCar SR is lower or equal to competitor SR | MechaCar SR is higher wer than the competition |
+|---------|-----------------|------------------------|
+| CO2 | MechaCar CO2 is higher or equal to competitor CO2 | MechaCar CO2 is lower than the competition |
+|---------|-----------------|------------------------|
+| IQ | MechaCar IQ is lower or equal to competitor SR | MechaCar IQ is higher wer than the competition |
+|---------|-----------------|------------------------|
+| PF | MechaCar PF is lower or equal to competitor PF | MechaCar PF is higher wer than the competition |
+|---------|-----------------|------------------------|
+
+### What statistical test would you use to test the hypothesis? And why?
+
+### What data is needed to run the statistical test?
+
+
+
+
 
 
 
