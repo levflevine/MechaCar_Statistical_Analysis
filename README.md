@@ -71,7 +71,31 @@ The total summary variance is below:
 
 ![Total Summary](/Resources/Tot_Summary.png)
 
+## T-Tests on Suspension Coils
 
+**Problem 1**: Determine if the PSI across all manufacturing lots is statistically different from the population mean of 1,500 pounds per square inch
+
+**Solution 1**:
+
+The aggregated t-test summary is presented below:
+
+![Total Summary](/Resources/Total_T.test.png)
+
+**Problem 2**: Determine if the PSI for each manufacturing lot is statistically different from the population mean of 1,500 pounds per square inch
+
+**Solution 2**:
+
+The Lot 1 t-test summary is presented below:
+
+![Total Summary](/Resources/Lot1_T.test.png)
+
+The Lot 2 t-test summary is presented below:
+
+![Total Summary](/Resources/Lot2_T.test.png)
+
+The Lot 3 t-test summary is presented below:
+
+![Total Summary](/Resources/Lot3_T.test.png)
 
 
 
