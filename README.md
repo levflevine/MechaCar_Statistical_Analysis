@@ -127,15 +127,13 @@ The Lot 3 t-test summary is presented below:
 
 ### What is the null hypothesis or alternative hypothesis?
 
-
 | Metrics | Null Hypothesis | Alternative Hypothesis |
 |---------|-----------------|------------------------|
-| TCO | MechaCar TCO is higher or equal to competitor TCO | MechaCar TCO is lower than the competition |
-| SR | MechaCar SR is lower or equal to competitor SR | MechaCar SR is higher wer than the competition |
-| CO2 | MechaCar CO2 is higher or equal to competitor CO2 | MechaCar CO2 is lower than the competition |
-| IQ | MechaCar IQ is lower or equal to competitor SR | MechaCar IQ is higher wer than the competition |
-| PF | MechaCar PF is lower or equal to competitor PF | MechaCar PF is higher wer than the competition |
-|---------|-----------------|------------------------|
+| TCO | MechaCar TCO is statistically higher or statistically indifferent to competitor TCO | MechaCar TCO is statistically lower than the competition |
+| SR | MechaCar SR is statistically lower or statistically indifferent to competitor SR | MechaCar SR is statistically higher than the competition |
+| CO2 | MechaCar CO2 is statistically higher or statistically indifferent to competitor CO2 | MechaCar CO2 is statistically lower than the competition |
+| IQ | MechaCar IQ is statistically lower or statistically indifferent to competitor SR | MechaCar IQ is statistically higher than the competition |
+| PF | MechaCar PF is statistically lower or statistically indifferent to competitor PF | MechaCar PF is statistically higher than the competition |
 
 ### What statistical test would you use to test the hypothesis? And why?
 
