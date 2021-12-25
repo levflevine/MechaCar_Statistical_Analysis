@@ -129,13 +129,40 @@ The Lot 3 t-test summary is presented below:
 
 | Metrics | Null Hypothesis | Alternative Hypothesis |
 |---------|-----------------|------------------------|
-| TCO | MechaCar TCO is statistically higher or statistically indifferent to competitor TCO | MechaCar TCO is statistically lower than the competition |
-| SR | MechaCar SR is statistically lower or statistically indifferent to competitor SR | MechaCar SR is statistically higher than the competition |
-| CO2 | MechaCar CO2 is statistically higher or statistically indifferent to competitor CO2 | MechaCar CO2 is statistically lower than the competition |
-| IQ | MechaCar IQ is statistically lower or statistically indifferent to competitor SR | MechaCar IQ is statistically higher than the competition |
-| PF | MechaCar PF is statistically lower or statistically indifferent to competitor PF | MechaCar PF is statistically higher than the competition |
+| TCO | MechaCar TCO is statistically indifferent to competitor TCO | MechaCar TCO is statistically different than the competition |
+| SR | MechaCar SR is statistically indifferent to competitor SR | MechaCar SR is statistically different than the competition |
+| CO2 | MechaCar CO2 is statistically indifferent to competitor CO2 | MechaCar CO2 is statistically different than the competition |
+| IQ | MechaCar IQ is statistically indifferent to competitor SR | MechaCar IQ is statistically different than the competition |
+| PF | MechaCar PF is statistically indifferent to competitor PF | MechaCar PF is statistically different than the competition |
 
 ### What statistical test would you use to test the hypothesis? And why?
+
+For each Metrics, we will create a summary statistics table with the following parameters (columns):
+
+- mean
+- median
+- variance
+- standard deviation
+
+There will be two rows in the table: MechaCar and the competition. The table will look like this.
+
+| Company | Mean | Median | Variance | SD |
+|-----|----|----------|----------|---|
+| MechaCar |  |  |  |  |
+| Competitors |  |  |  |  |
+
+Then, we will perform **t-tests** to determine if aggregated competitor data are statistically different from the MechaCar mean.
+
+For each Metrics, we will calculate **p-value** and use the **0.05 level of significance** to test our Null Hypotheses.
+
+If the **p-value** is below the level of significance we will reject the Null Hypothsis and establish a statistical difference between respective MechaCar Metric and the competitions. Then, we will need to see which way the diffrenece is: whether it is advantageous to MechaCar or not. 
+
+Below is the overall matrix to show the potential outcomes of competitive analysis for each metrics.
+
+| Metrics | TCO | SR | CO2  | IQ | PF |
+|---|---|--|---|---|---|
+| Scenario | MechaCar > Competitors | MechaCar > Competitors | MechaCar > Competitors | MechaCar > Competitors | MechaCar > Competitors |
+| Beneficial to MechaCar | No | Yes | No | Yes | Yes |
 
 ### What data is needed to run the statistical test?
 
