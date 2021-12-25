@@ -144,14 +144,14 @@ For each Metrics, we will create a summary statistics table with the following p
 - variance
 - standard deviation
 
-There will be two rows in the table: MechaCar and the competition. The table will look like this.
+There will be two rows in the summary statistics table: MechaCar and the competition. The table will look like this.
 
 | Company | Mean | Median | Variance | SD |
 |-----|----|----------|----------|---|
 | MechaCar |  |  |  |  |
 | Competitors |  |  |  |  |
 
-Then, we will perform **Two-Sample T-Tests** to determine if aggregated competitor data are statistically different from the MechaCar mean for each Metrics. The two-sample t-tests can be used to compare observations in one dataset (MechaCar) with observations in another (Competition). 
+We will perform **Two-Sample T-Tests** on the data sample to determine if aggregated competitor data are statistically different from the MechaCar mean for each Metrics. The two-sample t-tests can be used to compare observations in one dataset (MechaCar) with observations in another (Competition). 
 
 For each Metrics, we will calculate **p-value** and use the **0.05 level of significance** to test our Null Hypotheses.
 
