@@ -69,7 +69,7 @@ In aggregate, all three lots combined do meet the design specification:
 
 The total summary variance is below:
 
-![Total Summary](/Resources/Total_Summary.png)
+![Total Summary](/Resources/Tot_Summary.png)
 
 
 
