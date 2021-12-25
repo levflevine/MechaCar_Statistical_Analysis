@@ -34,7 +34,7 @@ The overall regression model **P-value is 5.35e-11**, which is well below our si
 
 ### Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
 
-The liner model predict the ***mpg*** effectively. The coefficient of determination (R-squared) represents how well the regression model approximates real-world data is above 0.7: 
+The linear model predicts the ***mpg*** effectively. The coefficient of determination (R-squared) represents how well the regression model approximates real-world data is above 0.7: 
 
 **Multiple R-squared:  0.7149**
 
