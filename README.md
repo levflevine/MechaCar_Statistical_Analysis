@@ -164,7 +164,7 @@ Below is the overall matrix to show the potential outcomes of competitive analys
 | Scenario | MechaCar <br> > <br> Competitors | MechaCar <br> > <br> Competitors | MechaCar <br> > <br> Competitors | MechaCar <br> > <br> Competitors | MechaCar <br> > <br> Competitors |
 | MechaCar has got an advantage | No | Yes | No | Yes | Yes |
 
-We would then visulaize the each metrics in a Radar (Web) Chart where the axes are represented by each metric with two shapes: MechaCar and the Competition.
+We would then visulaize each Metrics in a Radar (Web) Chart where the axes are represented by each Metric with two shapes: MechaCar and the Competition.
 
 ### What data is needed to run the statistical test?
 
