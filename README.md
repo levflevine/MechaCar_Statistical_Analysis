@@ -38,6 +38,41 @@ The liner model predict the ***mpg*** effectively. The coefficient of determinat
 
 **Multiple R-squared:  0.7149**
 
+## Summary Statistics on Suspension Coils
+
+**The Project Requirement**: The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. 
+
+**Problem**: Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
+
+**Solution**: 
+
+The **Lots # 1** and **#2** meet the design specification individually: 
+
+- Lot 1 variance of the suspension coils = 0.98
+- Lot 2 variance of the suspension coils = 7.47
+
+The variances of the suspension coils for both Lots # 1 and #2 are under 100.
+
+The **Lot # 3** does not meet the design specification individually:
+
+- Lot 3 variance of the suspension coils = 170.29
+
+The variances of the suspension coils for Lot # 3 is above 100.
+
+The individual Lot summary variances are below:
+
+![Lot Summary](/Resources/Lot_Summary.png)
+
+In aggregate, all three lots combined do meet the design specification:
+
+- Total variance of the suspension coils for all three Lots combined = 62.29, which is below the 100 specification threashold.
+
+The total summary variance is below:
+
+![Total Summary](/Resources/Total_Summary.png)
+
+
+
 
 
 
