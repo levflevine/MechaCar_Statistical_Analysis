@@ -75,7 +75,9 @@ The total summary variance is below:
 
 **Problem 1**: Determine if the PSI across all manufacturing lots is statistically different from the population mean of 1,500 pounds per square inch
 
-**Solution 1**:
+**Solution 1**: Based on the **0.05 significance level**, there is **no statistical difference** of the aggregated manufacturing lots sample from the population mean: 
+
+- the p-value = 0.06.
 
 The aggregated t-test summary is presented below:
 
@@ -83,15 +85,27 @@ The aggregated t-test summary is presented below:
 
 **Problem 2**: Determine if the PSI for each manufacturing lot is statistically different from the population mean of 1,500 pounds per square inch
 
-**Solution 2**:
+**Solution 2**: Data from **Lots # 1** and **# 2** is **not statistically different** from the population mean. Data from **Lot # 3 is statistically different** from the population mean.
+
+**Lot 1**: Based on the **0.05 significance level**, there is **no statistical difference** of the Lot 1 sample from the population mean: 
+
+- the p-value = 1.
 
 The Lot 1 t-test summary is presented below:
 
 ![Total Summary](/Resources/Lot11_T.test.png)
 
+**Lot 2**: Based on the **0.05 significance level**, there is **no statistical difference** of the Lot 2 sample from the population mean: 
+
+- the p-value = 0.6.
+
 The Lot 2 t-test summary is presented below:
 
 ![Total Summary](/Resources/Lot2_T.test.png)
+
+**Lot 3**: Based on the **0.05 significance level**, **there is statistical difference** of the Lot 3 sample from the population mean: 
+
+- the p-value = 0.04, which means that we have to reject the Null Hypothesis.
 
 The Lot 3 t-test summary is presented below:
 
