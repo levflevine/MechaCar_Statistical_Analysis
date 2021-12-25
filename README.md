@@ -123,7 +123,7 @@ The Lot 3 t-test summary is presented below:
 2. Safety Rating (**SR**) = 1 / (number of traffic incidents per year * severity of incidents (in US$) per 1,000 vehicles)
 3. CO2 Footpring per Mile (**CO2**) = average CO2 grams per mile of vehicle operation
 4. Initial Quality (**IQ**) = 1 / (number of unplanned service requests in the first year of vehicle ownership)
-5. Performance (**PF**) = maximum hoursepower
+5. Performance (**PF**) = maximum horsepower
 
 ### What is the null hypothesis or alternative hypothesis?
 
@@ -151,20 +151,43 @@ There will be two rows in the table: MechaCar and the competition. The table wil
 | MechaCar |  |  |  |  |
 | Competitors |  |  |  |  |
 
-Then, we will perform **t-tests** to determine if aggregated competitor data are statistically different from the MechaCar mean.
+Then, we will perform **Two-Sample T-Tests** to determine if aggregated competitor data are statistically different from the MechaCar mean for each Metrics. The two-sample t-tests can be used to compare observations in one dataset (MechaCar) with observations in another (Competition). 
 
 For each Metrics, we will calculate **p-value** and use the **0.05 level of significance** to test our Null Hypotheses.
 
 If the **p-value** is below the level of significance we will reject the Null Hypothsis and establish a statistical difference between respective MechaCar Metric and the competitions. Then, we will need to see which way the diffrenece is: whether it is advantageous to MechaCar or not. 
 
-Below is the overall matrix to show the potential outcomes of competitive analysis for each metrics.
+Below is the overall matrix to show the potential outcomes of competitive analysis for each Metrics.
 
 | Metrics | TCO | SR | CO2  | IQ | PF |
 |---|---|--|---|---|---|
 | Scenario | MechaCar <br> > <br> Competitors | MechaCar <br> > <br> Competitors | MechaCar <br> > <br> Competitors | MechaCar <br> > <br> Competitors | MechaCar <br> > <br> Competitors |
 | MechaCar has got an advantage | No | Yes | No | Yes | Yes |
 
+We would then visulaize the each metrics in a Radar (Web) Chart where the axes are represented by each metric with two shapes: MechaCar and the Competition.
+
 ### What data is needed to run the statistical test?
+
+To claculate the Metrics, We will need to collect the following data points for MechaCar and for the competitor vehicles:
+
+- vehicle price
+- average vehicle operating cost per mile (fuel + maintenance)
+- projected vehicle disposal cost after 5 years
+- number of traffic incidents per year per vehicle
+- severity of incidents (in US$) per year per vehicle
+- average CO2 grams per mile of vehicle operation
+- number of unplanned service requests in the first year of vehicle ownership
+- vehicle horsepower
+
+The T-Test statistical analysis will require that the data meet the following requirements:
+
+1. The input data is numerical and continuous
+2. Each sample data was selected randomly from the population data
+3. The input data is considered to be normally distributed
+4. Each sample size is reasonably large 
+5. The variance of the input data should be very similar
+
+For the Study, we should look at a sample data from 50 - 200 vehicles from MechaCar and the Competitors.
 
 
 
