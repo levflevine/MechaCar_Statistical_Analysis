@@ -161,8 +161,8 @@ Below is the overall matrix to show the potential outcomes of competitive analys
 
 | Metrics | TCO | SR | CO2  | IQ | PF |
 |---|---|--|---|---|---|
-| Scenario | MechaCar > Competitors | MechaCar > Competitors | MechaCar > Competitors | MechaCar > Competitors | MechaCar > Competitors |
-| Beneficial to MechaCar | No | Yes | No | Yes | Yes |
+| Scenario | MechaCar <br> > <br> Competitors | MechaCar <br> > <br> Competitors | MechaCar <br> > <br> Competitors | MechaCar <br> > <br> Competitors | MechaCar <br> > <br> Competitors |
+| MechaCar has got an advantage | No | Yes | No | Yes | Yes |
 
 ### What data is needed to run the statistical test?
 
